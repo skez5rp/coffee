@@ -26,7 +26,7 @@ function renderCollection() {
   }
   document.querySelector('#progress').style.width = `${selected.size * 20}%`;
   status.textContent = selected.size === 5
-    ? 'Ваша кофейня собрана. Можно заходить на кофе.'
+    ? 'Домик собран! В акции кафе это момент получения подарка. Например, бесплатного напитка.'
     : `${selected.size} из 5 деталей. История продолжается.`;
   updateOrderDesign();
 }
